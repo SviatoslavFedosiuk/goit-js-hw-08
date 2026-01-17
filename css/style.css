@@ -1,0 +1,29 @@
+.form {
+  width: 200px;
+  height: 100px;
+  margin-bottom: 50px;
+  outline: 3px solid black;
+}
+.second-task {
+  width: 350px;
+  height: 200px;
+  margin-bottom: 50px;
+  outline: 3px solid black;
+}
+.range-box {
+  width: 590px;
+  height: 200px;
+  margin-bottom: 50px;
+  outline: 3px solid black;
+}
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
